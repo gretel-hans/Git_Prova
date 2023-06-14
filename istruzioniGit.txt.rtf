@@ -5,17 +5,40 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 - git init   ->  Crea una repository locale\
-- git status ->  Controlla lo stato della repository\
-- git add  \'91nome del file da aggiungere\'92  ->  Traccia un file\
-- git add .ext ->  Traccia I file con l\'92estensione indicata\
-- git add  \'91.\'92  -> Traccia tutti i file con qualunque nome e estensione \
-- git rm \'97cached \'91nome del file\'92 ->  Rimuove uno o pi\'f9 file dalla stagni area \
-- git commit -m  \'93messaggio da scrivere\'94  ->   Faccio il commit con questa istruzione\
+\f0\fs24 \cf0 - git init   - >  Crea una repository locale\
+- git status - >  Controlla lo stato della repository\
+- git add  \'91nome del file da aggiungere\'92  - >  Traccia un file\
+- git add .ext - >  Traccia I file con l\'92estensione indicata\
+- git add  \'91.\'92  - > Traccia tutti i file con qualunque nome e estensione \
+- git rm \'97cached \'91nome del file\'92 - >  Rimuove uno o pi\'f9 file dalla stagni area \
+- git commit -m  \'93messaggio da scrivere\'94  - >   Faccio il commit con questa istruzione\
 \
-- git clone  \'93https://github.com/gretel-hans/Git_Prova.git ( url della repository )\'94 ->  Mi permette di clonare una repository in locale \
+- git clone  \'93https://github.com/gretel-hans/Git_Prova.git ( url della repository )\'94 - >  Mi permette di clonare una repository in locale \
 \
 Se. Ho gia una repository locale devo fare cosi:\
-- git branch -M main -> Creo un branch principale che chiamo main\
-- git remote add origin \'93https://github.com/gretel-hans/Git_Prova.git\'94 mi collega la mia repository locale gi\'e0 esistente con quella remota\
-- git push -u origin main ->  Faccio il push di tutto il contenuto della repository locale nella repository remota}
+- git branch -M main - > Creo un branch principale che chiamo main\
+- git remote add origin \'93https://github.com/gretel-hans/Git_Prova.git\'94 - > mi collega la mia repository locale gi\'e0 esistente con quella remota\
+- git push -u origin main - >  Faccio il push di tutto il contenuto della repository locale nella repository remota\
+\
+- git pull - >  Per scaricare in locale le ultime modifiche fatte in remoto nella repository\
+\
+-git branch \'93nome branch\'94 - > Crea un nuovo branch\
+- git branch - >  Mi mostra tutti i branch disponibili\
+-git checkout \'93nome del branch su cui spostarsi\'94 - > Mi sposta su un branch diverso \
+- git checkout -b \'93nome branch\'94 - > Mi creo un nuovo branch e mi sposto sul nuovo ramo\
+- git checkout -b hot fix/\'93nome bug\'94 - > Mi creo un branch di tipo hotfix per creare un branch destinato alla risoluzione di un bug \
+- git merge \'93nome branch\'94 - > Per unire il branch secondario indicato con quello principale \
+- git branch -d \'93nome branch\'94 - > Elimino un branch\
+- git branch -D \'93nome branch\'94 - > Forzo l\'92eliminazione di un branch\
+- git branch \'97no-merged - > Mostra un elenco di branch non ancora uniti al branch principale\
+-git tag v1.0.1 - > ( Tag annotated ) Tag per il versionamento che si esegue prima di fare l\'92add e il push della nuova modifica\
+- git tag -a v1.0.1 -m \'93Nuovo versionamento\'94 - > ( Tag lightweighted )Tag per il versionamento pi\'f9 specifica con commento\
+- git tag - > Mi da tutti i versionamenti del mio progetto  \
+- git remote -v -> Mi mostra i server collegati alla mia repository locale \
+- git fetch -> Scarica tutti i commit presenti nella repo remota nella repo locale\
+- git log - > Mi da lo storico dei commit con tutte le informazioni riguardo \
+- git log \'97 since=1week - > Mi da lo storico dei commit effettuati nell\'92ultima settimana \
+\
+\
+\
+}
